@@ -1,8 +1,8 @@
 // Counter settings
 const counters = [
-    { id: 'client-count', end: 150 },
-    { id: 'project-count', end: 200 },
-    { id: 'years-count', end: 10 }
+    { id: 'client-count', end: 200 },
+    { id: 'project-count', end: 250 },
+    { id: 'years-count', end: 25 }
 ];
 
 // Increment function for animation

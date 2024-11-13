@@ -19877,6 +19877,86 @@ body.white-version {
 
 
 
+/* Base styling */
+body {
+    font-family: Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f8f9fa;
+}
+
+/* Container styling */
+.counter-container {
+    display: flex;
+    gap: 150px; /* Adjusted for consistent spacing */
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    justify-content: center;
+}
+
+/* Each counter section styling */
+.counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 160px; /* Fixed width for consistency */
+    margin: 10px;
+}
+
+/* 3D Circle styling with custom color */
+.counter-circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4.2rem;
+    font-weight: 600;
+    color: #333; /* Default text color */
+    background-color: ##EEF1F3; /* Circle color updated */
+    box-shadow: -2px 8px 16px rgba(0, 0, 0, 0.15), -8px -8px 16px rgba(241, 241, 241, 0.7);
+    margin-bottom: 10px;
+    position: relative;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect for 3D pop and color change */
+.counter-circle:hover {
+    transform: translateY(-8px);
+    box-shadow: 12px 12px 24px rgba(0, 0, 0, 0.2), -12px -12px 24px rgba(255, 255, 255, 0.8);
+    color: red; /* Change color to red on hover */
+}
+
+/* Text Label styling */
+.counter-label {
+    font-size: 1.8rem;
+    color: #333;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .counter-container {
+        flex-direction: column; /* Stack vertically on tablets and smaller screens */
+        gap: 20px;
+    }
+    .counter {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .counter-circle {
+        width: 120px;
+        height: 120px;
+        font-size: 1.8rem;
+    }
+    .counter-label {
+        font-size: 1rem;
+    }
+}
 
 
 
@@ -19885,6 +19965,6 @@ body.white-version {
 
 
 
-/*# for mouse cursor
+/*# for counter
 
 /*# sourceMappingURL=../maps/style.css.map */
