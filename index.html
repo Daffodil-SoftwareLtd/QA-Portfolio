@@ -198,57 +198,103 @@
         <!-- End Slider Area -->
 
 
+        
 
 
 
-
-
-<!-- Start Software Testing Certification Area -->
-                    
-
-
-                    <div id="home" class="rn-slide-area">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                
-                                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true" class="experience-style-two aos-init aos-animate">
-                                        <div class="experience-left">
-
-                                            <!-- Certification Info with Button -->
-                                <div class="col-12 text-center">
-                                    <p>We also provide Software Testing Certification to your Software. <br> Get Certification from us.</p>
-                                    <!-- Certification Button -->
+    <!-- Start Software Testing Certification Area -->
+                <div id="home" class="rn-slide-area">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true" class="experience-style-two aos-init aos-animate">
+                                <div class="experience-left">
+                                    <!-- Certification Info with Button -->
+                                    <div class="col-12 text-center">
+                                        <p>We also provide Software Testing Certification for your software.<br>Get Certification from us.</p>
+                                    </div>
                                 </div>
-                                            
-                                        </div>
-                                        <div class="experience-right">
-                                            <div class="experience-footer">
-                                                <a class="rn-btn" href="#contacts"><span>View The Certificate</span></a>
-                                            </div>
-                                        </div>
+                                <div class="experience-right">
+                                    <div class="experience-footer">
+                                        <!-- Certification Button to trigger modal -->
+                                        <a class="rn-btn" data-toggle="modal" data-target="#CertificationModalCenter01">
+                                            <span>View The Certificate</span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- End Software Testing Certification Area -->
+                </div>
+                <!-- End Software Testing Certification Area -->
 
-                    <!-- Certification Format Section -->
-                    <div id="certification-format" style="display:none; margin-top: 50px;">
-                        <h2>Software Testing Certification System Format</h2>
-                        <p>Here is the format for the certification...</p>
-                        <!-- Add more details about the certification system here -->
+                <!-- Popup for Software Testing Certification area Start -->
+                <div class="modal fade" id="CertificationModalCenter01" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true"><i data-feather="x"></i></span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row align-items-center">
+                                    <!-- Modal Image Section -->
+                                    <div class="col-lg-6">
+                                        <div class="portfolio-popup-thumbnail">
+                                            <div class="image">
+                                                <img class="w-100" src="assets/images/Certificate/SoftwareCertificate.png "alt="Certificate Image">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Modal Text Section -->
+                                    <div class="col-lg-6">
+                                        <div class="text-content">
+                                            <h3>
+                                                <span>We Provide Certification</span> Make your software error-free and more secure
+                                            </h3>
+                                            <p class="mb--30" style="text-align: justify;">Details of certification</p>
+                                            <div class="button-group mt--20">
+                                                <a href="#" class="rn-btn thumbs-icon">
+                                                    <i data-feather="thumbs-up"></i>
+                                                </a>
+                                                <a href="https://drive.google.com/file/d/1imKVFJrh3DrBh3T4Da1R5_xOk3tweopf/view?usp=sharing" class="rn-btn">
+                                                    <span>DownLoad Certificate</span>
+                                                    <i data-feather="chevron-right"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- End of .text-content -->
+                                    </div>
+                                </div>
+                                <!-- End of .row Body-->
+                            </div>
+                        </div>
                     </div>
+                </div>
+                <!-- End for software certification area -->
 
-                    <!-- Optional: JavaScript to show the certification format when the button is clicked -->
-                    <script>
-                        document.getElementById('show-certification-btn').addEventListener('click', function() {
-                            document.getElementById('certification-format').style.display = 'block';
-                        });
-                    </script>
+                <!-- Optional: JavaScript to enable Bootstrap modal -->
+                <script>
+                    // Feather icons
+                    feather.replace();
+
+                    // Show the certification modal on button click
+                    document.querySelector('[data-toggle="modal"]').addEventListener('click', function () {
+                        $('#CertificationModalCenter01').modal('show');
+                    });
+                </script>
+
+                <!-- Link to Bootstrap CSS and JS -->
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+                <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- End for software certification area -->
 
 
-<!-- End Software Testing Certification Area -->
+
+
+
 
 
 <br>
@@ -1454,10 +1500,10 @@
                             <div class="col-lg-6">
                                 <div class="text-content">
                                     <h3>
-                                        <span>ERP and Website test</span> DCL
+                                        <span>ERP and E-commerce Website test</span> Daffodil Computers Ltd
                                     </h3>
-                                    <p class="mb--30" style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.</p>
-                                    <p>Consectetur adipisicing elit. Cupiditate distinctio assumenda. dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!</p>
+                                    <p class="mb--30" style="text-align: justify;">At Daffodil Software, we conducted extensive testing on the ERP solution for Daffodil Computers Ltd., currently operational across 10+ branches. Our testing focused on ensuring the system's reliability, performance, and scalability to support seamless branch operations. Additionally, we performed a thorough evaluation of their e-commerce platform, addressing critical aspects such as functionality, security, user experience, and transaction flow. Our detailed insights and recommendations have helped optimize both systems, reinforcing robust performance and a secure, efficient user experience across all branches and online.
+                                    </p>
                                     <div class="button-group mt--20">
                                         <a href="#" class="rn-btn thumbs-icon">
                                             <span></span>
@@ -2322,9 +2368,7 @@
                         </div>
                         <ul class="menu-footer">
                             <li><a href="#">Documentation</a></li>
-                            <li><a href="#">Authentication</a></li>
-                            <li><a href="#">API Reference</a></li>
-                            <li><a href="#">Support</a></li>
+                    
                             <li><a href="#">Open Source</a></li>
                         </ul>
                     </div>

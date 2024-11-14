@@ -19861,6 +19861,7 @@ body.white-version {
 
 .white-version #sideNav .primary-menu li a.active {
     color: var(--color-primary);
+    background:transparent!important;
 }
 
 .white-version .footer-style-2 .copyright .description,
