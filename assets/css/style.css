@@ -19875,6 +19875,46 @@ body.white-version {
 
 
 
+/* Testing team css code*/
+    .team-list ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .team-list ul li {
+        color: black;
+        transition: color 0.3s ease;
+    }
+
+    .team-list ul li:hover {
+        color: red;
+    }
+
+    .section-title {
+        margin-bottom: 20px;
+    }
+
+    .section-title .subtitle {
+        font-size: 16px;
+        color: gray;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .section-title .title {
+        font-size: 24px;
+        font-weight: bold;
+        color: #000;
+    }
+
+    .col-12.text-center p {
+        margin-top: 10px;
+        font-size: 18px;
+        color: #333;
+    }
+
+
+
 
 
 
